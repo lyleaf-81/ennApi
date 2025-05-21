@@ -31,5 +31,5 @@ function getAppKey() {
             (e.getMinutes() < 10 ? "0" + e.getMinutes() : e.getMinutes()) + // + (补零)分
             (e.getSeconds() < 10 ? "0" + e.getSeconds() : e.getSeconds()); // + (补零)秒
     // n.default 被指定为 MD5
-    return o + n.default(o + "8796135e9f8349d998345f9f13d8bd95");
+    return o + n.default(o + "固定的32位十六进制字符串");
 }
