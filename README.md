@@ -17,9 +17,8 @@
 **实现代码:**
 
 ```javascript
-// 已指明 n.default 是一个 MD5 哈希函数。
-// 概念示例:
-// const n = { default: function_md5(inputString) { /* ... MD5 实现 ... */ return hashed_str; } };
+//  n.default 是一个 MD5 哈希函数。
+
 
 function getAppKey() {
     var e = new Date(),
